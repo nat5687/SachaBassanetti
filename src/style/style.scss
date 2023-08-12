@@ -14,7 +14,8 @@
   -webkit-text-size-adjust: 100%;
 }
 
-$background-color:rgba(7, 160, 195, 0.19);
+@import './variables';
+
 *,
 *::before,
 *::after, html, body{
@@ -26,16 +27,27 @@ $background-color:rgba(7, 160, 195, 0.19);
 html,body{
   width: 100vw;
   height: 100%;
+}
+
+html{
   overflow-x: hidden;
 }
 
 body{
   background-color: $background-color;
-  height: 10000px;
 }
 
 .u-no-scroll{
   overflow-y: hidden;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+#app{
+  background-color: $background-color;
 }
 
 

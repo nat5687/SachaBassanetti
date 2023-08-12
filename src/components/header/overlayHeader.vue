@@ -1,20 +1,26 @@
 <template>
     <div>
-        <ul>
-            <a href="#"><li>Home</li></a>
-            <a href="#"><li>Works</li></a>
-            <a href="#"><li>About</li></a>
-            <a href="#"><li>Contact</li></a>
-        </ul>
+        <navbar @redirect="redirect" :flex-direction="'column'"></navbar>
     </div>
 </template>
 
+<script setup lang="ts">
+    import navbar from '../navbar.vue';
+
+    const emit = defineEmits()
+    const redirect = () => {
+        emit('redirect')
+    }
+
+</script>
+
+
 <style scoped lang="scss">
-@import url(../../_variables.scss);
+@import '../../style/variables';
     div{
         height: 100vh;
         width: 100vw;
-        background-color: rgb(88, 88, 69);
+        background-color: $inverted-bgColor;
         position: fixed;
         z-index: -1;
         z-index: 100;
@@ -22,19 +28,5 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
-    ul{
-        position: relative;
-        list-style: none;
-        font-size: 10vmin;
-        li{
-            color: rgb(47, 38, 22);
-            margin-top: 0.5em;
-
-        }
-        a{
-            text-decoration: none;
-
-        }
     }
 </style>
