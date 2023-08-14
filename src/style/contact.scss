@@ -1,0 +1,54 @@
+@import './variables';
+
+main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin: 2em  auto 1em auto;
+    color: $font-color;
+    font-size: 8vmin;
+}
+input, textarea 
+{
+    background-color: white;
+    color: $font-color;
+    width: 90%;
+    margin-top: 2em;
+    border: solid 1px $font-color;
+    border-radius: 4px;
+    padding: 10px;
+
+    &::placeholder{
+        margin-left: 1em;
+    }
+
+}
+input{
+    height: 10vmin;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+button{
+    height: 10vmin;
+    width: 60%;
+    margin-top: 2.5em;
+    background-color: $primary-color;
+    border: solid 1px $inverted-bgColor;
+    cursor: pointer;
+    font-size: 3.5vmin;
+
+    &:hover{
+    background-color: #04657a;
+    }
+}
+

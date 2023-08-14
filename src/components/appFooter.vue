@@ -17,7 +17,7 @@ import socialMedias from './socialMedias.vue';
             <div>Email: <a  class="callToAction" href="" target="_blank" rel="noopener noreferrer">bassanetti.sacha.pro@gmail.com</a></div>
             <div>Phone: <a  class="callToAction" href="" target="_blank" rel="noopener noreferrer">07.78.55.21.18</a></div>
         </div>
-        <div class="contact_me">Created and designe by <span class="callToAction" >Nathan Basanetti</span></div>
+        <div class="contact_me">Created and designed by <span class="callToAction" >Nathan Bassanetti</span></div>
         <div class="contact_me">Email :<span class="callToAction" > nt.bassanetti@gmail.com</span></div>
     </footer>
 </template>
