@@ -51,7 +51,7 @@ import socialMedias from './socialMedias.vue';
         font-family: $first-font;
 
         li{
-            color: $callToAction;
+            color: $primary-color;
             margin-top: 0.5em;
             margin-right: 1em;
 
@@ -59,7 +59,7 @@ import socialMedias from './socialMedias.vue';
     }
 
     .callToAction {
-        color: $callToAction;
+        color: $primary-color;
     }
 
     .contact_him{

@@ -79,8 +79,10 @@ a{
 
 .carousel__next, .carousel__prev{
   position: absolute;
-  width: 7vmin;
-  height: 7vmin;
+  width: 10vmin;
+  max-width: 50px;
+  height: 10vmin;
+  max-height: 50px;
   z-index: 10;
   background: #ffffff url(../assets/forwardArrow.svg) center center no-repeat;
   background-size: 20px 20px;
@@ -104,4 +106,16 @@ a{
 
 .carousel__prev--hidden, .carousel__next--hidden{
   display: none;
+}
+
+
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'),
+    url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2)
+      format('woff2');
+  font-display: swap;
 }
