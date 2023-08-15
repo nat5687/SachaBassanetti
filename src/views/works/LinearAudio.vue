@@ -13,9 +13,9 @@
           <p class="text">Short student film by Pierre Fittante. (3rd year at ISPRA School) <br>My role : Boom operator, sound editing, music composition, final mix (5.1) <br>We earned several nominations and prices.</p>
           </div>
           <div class='img_container img_container1'>
-            <img src="https://static.wixstatic.com/media/2f8a00_fee4db509d5d416ea80a1f63411c2834~mv2.png/v1/fill/w_282,h_415,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Addn%20affiche%20PRIX%20v2%20CORRIGE.png">
-            <img src="https://static.wixstatic.com/media/2f8a00_be6ee9964d0b478991b048eae65d86e8~mv2.png/v1/fill/w_441,h_284,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/prix_01.png">
-            <img src="https://static.wixstatic.com/media/2f8a00_bdfe19e56f114e4aba4b087ebe6ae983~mv2.png/v1/fill/w_385,h_382,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2f8a00_bdfe19e56f114e4aba4b087ebe6ae983~mv2.png">
+            <img  loading="lazy" src="https://static.wixstatic.com/media/2f8a00_fee4db509d5d416ea80a1f63411c2834~mv2.png/v1/fill/w_282,h_415,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Addn%20affiche%20PRIX%20v2%20CORRIGE.png">
+            <img  loading="lazy" src="https://static.wixstatic.com/media/2f8a00_be6ee9964d0b478991b048eae65d86e8~mv2.png/v1/fill/w_441,h_284,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/prix_01.png">
+            <img  loading="lazy" src="https://static.wixstatic.com/media/2f8a00_bdfe19e56f114e4aba4b087ebe6ae983~mv2.png/v1/fill/w_385,h_382,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2f8a00_bdfe19e56f114e4aba4b087ebe6ae983~mv2.png">
           </div>
         </section>
         <section class="u_n_en_r">
@@ -24,7 +24,7 @@
           <p class="text">Short student film by Anata Bizet. (2nd year at ISPRA School) <br>My role : Boom operator, sound editing, music composition, mix (5.1) <br>We earned two prices at ISPRA school for : <br>"Best music composition" and "Best sound mixing</p>
           </div>
           <div class='img_container'>
-            <img src="https://static.wixstatic.com/media/2f8a00_f634cc7dc2e74ca784f2cbcaf82054ab~mv2.jpg/v1/fill/w_336,h_498,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Une%20Nuit%20En%20Rouge.jpg">
+            <img  loading="lazy" src="https://static.wixstatic.com/media/2f8a00_f634cc7dc2e74ca784f2cbcaf82054ab~mv2.jpg/v1/fill/w_336,h_498,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Une%20Nuit%20En%20Rouge.jpg">
           </div>
         </section>
         <section class="s_a">
@@ -33,7 +33,7 @@
           <p class="text">Short student film by Allan Klein. (3rd year at ISPRA School) <br> My role : Music composition</p>
           </div>
           <div class='img_container'>
-            <img src="https://static.wixstatic.com/media/2f8a00_a78052d49dbc412c8cca54ffe5486907~mv2.jpg/v1/fill/w_336,h_498,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Affiche%20Stayin%20Alive.jpg">
+            <img loading="lazy"  src="https://static.wixstatic.com/media/2f8a00_a78052d49dbc412c8cca54ffe5486907~mv2.jpg/v1/fill/w_336,h_498,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Affiche%20Stayin%20Alive.jpg">
           </div>
         </section>
         <section class="z_t">
@@ -45,7 +45,7 @@
         <section class="s_f">
           <p class=title>Sang Froid</p>
           <div class='img_container'>
-            <img src="https://static.wixstatic.com/media/2f8a00_295f2de2caff422f8849c643df2902d0~mv2.jpg/v1/fill/w_336,h_498,al_c,lg_1,q_80,enc_auto/Poster_not_available.jpg">
+            <img loading="lazy" src="https://static.wixstatic.com/media/2f8a00_295f2de2caff422f8849c643df2902d0~mv2.jpg/v1/fill/w_336,h_498,al_c,lg_1,q_80,enc_auto/Poster_not_available.jpg">
             <p class='text'>Short student film by Maryline Solignac. (2nd year at ISPRA School) <br>My role : Sound editing, mix (5.1)</p>
           </div>
         </section>

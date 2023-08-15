@@ -1,6 +1,6 @@
 <template>
     <section class="aboveScrollContainer">
-        <img src="../assets/bg-soundDesign.jpg" alt="">
+        <img  loading="lazy" src="../assets/bg-soundDesign.webp" alt="">
         <div class="overlay"></div>
         <p>{{ textProp }}</p>
     </section>

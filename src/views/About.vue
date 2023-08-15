@@ -2,7 +2,7 @@
     <main>
       <above-scroll :textProp="message"></above-scroll>
       <div class="img_container">
-        <img src="../assets/photo_sacha.webp" alt="Une photo de moi">
+        <img loading="lazy" src="../assets/photo_sacha.webp" alt="Une photo de moi">
       </div>
       <div class="content">
         <h1>Sacha Bassanetti</h1>

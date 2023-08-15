@@ -3,7 +3,7 @@
     <p  class="title"><slot>
   </slot></p>
   <div class="video_container">
-    <iframe :src="url" :title="video_title" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe loading="lazy" :src="url" :title="video_title" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
   </div>
 </template>
