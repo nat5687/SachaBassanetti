@@ -19,7 +19,6 @@
 <style scoped lang="scss">
 
   .container{
-    margin-top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,10 +26,10 @@
   }
   .video_container{
     position: relative;
-    padding-bottom: 56.25%; /* Rapport 16:9 pour une vidéo */
+    padding-bottom: clamp(0px, 56.25%, 393.75px); /* Rapport 16:9 pour une vidéo */
     height: 0;
     overflow: hidden;
-    width: max(90%);
+    width: clamp(0px, 90%, 700px);
     margin:1em auto 0 auto;
 
     iframe {
@@ -45,4 +44,5 @@
   .title{
     font-size: 7vmin;
   }
+
 </style>

@@ -34,3 +34,17 @@ p {
     font-size: 4vmin;
     width: 90%;
 }
+
+
+@media screen  and (min-width: 800px){
+    .img_container{
+        width: 45%;
+        float: left;
+    }
+
+    .content{
+        float: right;
+        width: 55%;
+        margin: 2em 0 2em 0;
+    }
+}

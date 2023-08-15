@@ -1,5 +1,9 @@
+@import './_variables';
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu&display=swap');
+
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: $second-font;
   line-height: 1.5;
   font-weight: 400;
 
@@ -14,7 +18,7 @@
   -webkit-text-size-adjust: 100%;
 }
 
-@import './variables';
+
 
 *,
 *::before,
@@ -50,5 +54,57 @@ a{
   background-color: $background-color;
 }
 
+/*  _________________________Carousel____________________  */ 
 
 
+.carousel__item{
+  float: left;
+}
+.carousel-wrapper{
+  padding-bottom: 5rem;
+  overflow: hidden;
+}
+.carousel__container{
+  transition: transform 0.3s;
+  transform: translate3d(0, 0, 0);
+}
+
+.carousel__container::after{
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.carousel{
+  position: relative;
+}
+
+
+.carousel__next, .carousel__prev{
+  position: absolute;
+  width: 7vmin;
+  height: 7vmin;
+  z-index: 10;
+  background: #ffffff url(../assets/forwardArrow.svg) center center no-repeat;
+  background-size: 20px 20px;
+  border-radius: 50%;
+  top: 50%;
+  margin-top: -20px;
+  right: 0px;
+  box-shadow: 0 15px 35px #3232321a, 0 5px 15px #0000001a;
+  cursor: pointer;
+  transition: transform 0.3s opacity 0.3 
+}
+
+.carousel__next:hover, .carousel__prev:hover{
+  transform: scale(1.2);
+}
+
+.carousel__prev{
+  right: auto;
+  background-image: url(../assets/backArrow.svg);
+}
+
+.carousel__prev--hidden, .carousel__next--hidden{
+  display: none;
+}

@@ -29,4 +29,10 @@
         align-items: center;
         justify-content: center;
     }
+
+    @media screen and (min-width: 700px){
+        div{
+            display: none
+        }
+    }
 </style>

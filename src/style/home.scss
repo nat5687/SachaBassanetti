@@ -5,6 +5,7 @@ main{
     flex-direction: column;
     align-items: center;
     color: $font-color;
+    text-align: center;
 }
 
 .videos-container{
@@ -14,6 +15,7 @@ main{
 
 .video{
     width: 100%;
+    margin: 4em auto 4em auto;
 }
 
 h2{

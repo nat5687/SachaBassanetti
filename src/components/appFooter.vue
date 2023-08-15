@@ -23,7 +23,7 @@ import socialMedias from './socialMedias.vue';
 </template>
 
 <style scoped lang="scss">
-@import  '../style/variables';
+@import  '../style/_variables';
 @import '../style/variables';
     footer{
         width: 100%;
@@ -35,6 +35,7 @@ import socialMedias from './socialMedias.vue';
         margin-top: 3em;
         color: white;
         text-align: center;
+
     }
 
     .navbar_container{
@@ -47,6 +48,7 @@ import socialMedias from './socialMedias.vue';
         font-size: 5vmin;
         display: flex;
         flex-direction: row;
+        font-family: $first-font;
 
         li{
             color: $callToAction;
@@ -62,10 +64,12 @@ import socialMedias from './socialMedias.vue';
 
     .contact_him{
         margin: 1em;
+        font-size: 4vmin;
     }
     
     .contact_me{
         font-size: 3vmin;
     }
+
    
 </style>

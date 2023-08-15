@@ -16,8 +16,12 @@
 </script>
 
 <style lang="scss" scoped>
-@import  '../style/variables';
+@import  '../style/_variables';
 @import  '../style/style.scss';
+
+section {
+  font-family: $first-font;
+}
 
 img{
   height: 100%;
@@ -25,6 +29,7 @@ img{
   background-repeat: no-repeat;
   filter: brightness(1) contrast(1) ;
   position: absolute;
+  width:100vw;
 
   z-index: -2;
 }

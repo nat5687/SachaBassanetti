@@ -5,11 +5,30 @@
         <above-scroll :textProp="message"></above-scroll>
         <section class="cnr">
             <div class="cnr_img"></div>
+            <div ref="carousel_container" class="carousel_container">
+                <img src="https://static.wixstatic.com/media/2f8a00_1b0c003a0c0e414a9f912f21be67fa0a~mv2.png/v1/fit/w_776,h_230,q_90/2f8a00_1b0c003a0c0e414a9f912f21be67fa0a~mv2.png" alt="">
+                <img src="https://static.wixstatic.com/media/2f8a00_dae1a8a56c804660bc1ed4bf928ffc4a~mv2.png/v1/fit/w_776,h_230,q_90/2f8a00_dae1a8a56c804660bc1ed4bf928ffc4a~mv2.png" alt="">
+                <img src="https://static.wixstatic.com/media/2f8a00_87ea3fe0873c4b6598fc65c618b62e96~mv2.gif/v1/fit/w_710,h_230,q_90/2f8a00_87ea3fe0873c4b6598fc65c618b62e96~mv2.gif" alt="">
+                <img src="https://static.wixstatic.com/media/2f8a00_caab17aa806e4eb08fc0f1f30355ce58~mv2.png/v1/fit/w_776,h_230,q_90/2f8a00_caab17aa806e4eb08fc0f1f30355ce58~mv2.png" alt="">
+                <img src="https://static.wixstatic.com/media/2f8a00_5eb1781887fa4e6ba5c22cb9fb63dfa1~mv2.png/v1/fit/w_776,h_230,q_90/2f8a00_5eb1781887fa4e6ba5c22cb9fb63dfa1~mv2.png" alt="">
+                <img src="https://static.wixstatic.com/media/2f8a00_b5a2bd0b955e4d8d96cc48a9704fbc81~mv2.png/v1/fit/w_776,h_230,q_90/2f8a00_b5a2bd0b955e4d8d96cc48a9704fbc81~mv2.png" alt="">
+            </div>
             <app-video :url="urls[0]" :video_title="video_titles[0]"></app-video>
             <p>IIM 4th Year student game.<br>"Cook'n'Rogue" is an adventure roguelike game where you can cook your weapon to defeat enemies.<br>On this project, I did all the asset and music creation as well as the integration using Wwise and Unity. <br>You can download this game on the link below<br><a href="https://elecktro-punch.itch.io/cook">https://elecktro-punch.itch.io/cook</a></p>
             <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1638378745&color=%234d4d4d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/zenisound" title="Zeni" target="_blank" style="color: #cccccc; text-decoration: none;">Zeni</a> · <a href="https://soundcloud.com/zenisound/sets/cooknrogue-ost" title="Cook&#x27;n&#x27;Rogue - OST" target="_blank" style="color: #cccccc; text-decoration: none;">Cook&#x27;n&#x27;Rogue - OST</a></div>
         </section>
-        <section class="cnr"></section>
+        <section class="folgore">
+            <p class=title>Folgore</p>
+            <div ref="carousel_container2" class="carousel_container2">
+                <img src="https://static.wixstatic.com/media/2f8a00_ae8f14518e4640a691ba1fd7fbf4f6dc~mv2.png/v1/fit/w_776,h_230,q_90/2f8a00_ae8f14518e4640a691ba1fd7fbf4f6dc~mv2.png">
+                <img src="https://static.wixstatic.com/media/2f8a00_2dcb93c5e0354e6fb5750041e4471b3a~mv2.jpg/v1/fit/w_776,h_230,q_90/2f8a00_2dcb93c5e0354e6fb5750041e4471b3a~mv2.jpg">
+                <img src="https://static.wixstatic.com/media/2f8a00_5ac75db4d499422e96d4da167cc94036~mv2.png/v1/fit/w_776,h_230,q_90/2f8a00_5ac75db4d499422e96d4da167cc94036~mv2.png">
+                <img src="https://static.wixstatic.com/media/2f8a00_9252b90b56ad484a9e6379c0d167af6e~mv2.jpg/v1/fit/w_776,h_230,q_90/2f8a00_9252b90b56ad484a9e6379c0d167af6e~mv2.jpg">
+                <img src="https://static.wixstatic.com/media/2f8a00_a60d0d7950f44d16b684c0128604c62a~mv2.jpg/v1/fit/w_776,h_230,q_90/2f8a00_a60d0d7950f44d16b684c0128604c62a~mv2.jpg">
+                <img src="https://static.wixstatic.com/media/2f8a00_33510f13ca0d429d954b22fd0504aa42~mv2.png/v1/fit/w_776,h_230,q_90/2f8a00_33510f13ca0d429d954b22fd0504aa42~mv2.png">
+            </div>
+            <p>ETPA student game. <br>"Folgore" is a top view fighting game inspired by dark comics and late 60s Italy. <br>On this project, I did all the asset and music creation as well as the integration using Wwise and Unity. <br>You can download this game on the link below <br> <a  href=" https://edouard-mordant.itch.io/folgore" target="_blank"> https://edouard-mordant.itch.io/folgore</a></p>
+        </section>
         <section class="raiders">
             <app-video :url="urls[1]" :video_title="video_titles[1]">Raiders</app-video>
             <p>Art FX 5th year student game.<br>"Raiders" competitive fast-FPS with parkour oriented movements.<br>On this project, I did the asset creation and the Audio Implementation using Unreal Engine 5 audio engine.<br>You can download this game on the link below <br> <a href="https://artfx-school.itch.io/raiders" target="_blank" rel="noopener noreferrer">https://artfx-school.itch.io/raiders</a></p>
@@ -41,6 +60,8 @@
 import aboveScroll from '../../components/aboveScroll.vue'
 import backArrow from '../../components/backArrow.vue' 
 import appVideo from '../../components/appVideo.vue'
+import {Carousel} from '../../components/carousel/carousel.ts'
+import {onMounted } from 'vue'
 
     const message = 'Game Audio'
     const urls =[
@@ -57,6 +78,31 @@ import appVideo from '../../components/appVideo.vue'
        'Temanava - Demo Gameplay Trailer - Redplane Studio',
        'Sp&#39;eat fighter - Trailer'
     ]
+    
+    let carouselContainer 
+    let carouselContainer2
+
+    onMounted(() => {
+        carouselContainer = document.querySelector('.carousel_container') as HTMLElement
+        carouselContainer2 = document.querySelector('.carousel_container2') as HTMLElement
+    if (carouselContainer) {
+        new Carousel(carouselContainer, {
+            slidesToScroll: 3,
+            slidesVisible: 3,
+            loop:true
+        }) 
+    }
+    if (carouselContainer2) {
+        new Carousel(carouselContainer2, {
+            slidesToScroll: 2,
+            slidesVisible: 2,
+            loop:true
+
+        }) 
+    }
+    })
+
+
 </script>
 
 
