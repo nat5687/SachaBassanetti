@@ -1,16 +1,5 @@
 <template>
     <header>
-        
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8YETC3ND2K"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-8YETC3ND2K');
-    </script>
-
         <div class="header_top">
             <img src="../../assets/logo.jpg" alt="">
             <div class="burger">
