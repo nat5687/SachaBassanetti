@@ -10,10 +10,8 @@
 
 
 <script setup lang='ts'>
-import appVideo from './appVideo'
 
     const emit = defineEmits()
-    const {index} = defineProps(['index'])
 
     const close = () => {
         emit('close')

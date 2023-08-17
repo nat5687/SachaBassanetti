@@ -209,7 +209,7 @@ const sections =[
 
     let isMobile = ref(window.innerWidth <= 700)
     let sectionToShow = ref(null)
-    let thumbnailUrls = ref([])
+    let thumbnailUrls = ref<string | ReturnType<returnThumbnailOfVideo>[]>([])
     thumbnailUrls.value.push('https://static.wixstatic.com/media/2f8a00_1b0c003a0c0e414a9f912f21be67fa0a~mv2.png/v1/fit/w_776,h_230,q_90/2f8a00_1b0c003a0c0e414a9f912f21be67fa0a~mv2.png')
     thumbnailUrls.value.push('https://static.wixstatic.com/media/2f8a00_ae8f14518e4640a691ba1fd7fbf4f6dc~mv2.png/v1/fit/w_776,h_230,q_90/2f8a00_ae8f14518e4640a691ba1fd7fbf4f6dc~mv2.png')
     thumbnailUrls.value.push(returnThumbnailOfVideo('https://www.youtube.com/embed/bOLAoTgXRiU'))
@@ -231,10 +231,9 @@ const sections =[
   ]
 
   let overlayIsVisible = ref(false)
-  let videoIndex = ref(null)
 
 
-  const showOverlay = (index: Number) => {
+  const showOverlay = (index) => {
 
     sectionToShow = sections[index]
 
@@ -268,18 +267,6 @@ const sections =[
     document.body.style.overflow = 'initial'
     }
 
-
-    // overlay 
-
-    const emit = defineEmits()
-    const {index} = defineProps(['index'])
-
-    const close = () => {
-        emit('close')
-    }
-
-
-    
 </script>
 
 

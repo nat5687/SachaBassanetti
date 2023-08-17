@@ -212,11 +212,8 @@ import {ref} from 'vue'
   ]
 
   let overlayIsVisible = ref(false)
-  let videoIndex = ref(null)
 
-  const showOverlay = (index: Number) => {
-
-    videoIndex.value = index
+  const showOverlay = (index) => {
     sectionToShow = sections[index]
     
     overlayIsVisible.value = true
