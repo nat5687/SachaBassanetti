@@ -5,6 +5,7 @@
         Contact me
       </h1>
       <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="contact" value="contact" />
         <input name="Nom" type="text" placeholder="Name">
         <input name="Email" type="text" placeholder="Email">
         <textarea name="Message" id="" cols="30" rows="10" placeholder="Your message"></textarea>
