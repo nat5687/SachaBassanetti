@@ -9,8 +9,9 @@
         <input name="Nom" type="text" placeholder="Name">
         <input name="Email" type="text" placeholder="Email">
         <textarea name="Message" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+        <button>Send</button>
       </form>
-      <button>Send</button>
+
     </main>
   </template>
   
