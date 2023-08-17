@@ -18,16 +18,18 @@
 
     gtag('config', 'G-8YETC3ND2K');
     </script>
-    <form name="contact" method="POST" data-netlify="true">
+    <form  class="form" name="contact" method="POST" data-netlify="true">
       <input type="hidden" name="form-name" value="contact" />
       <div class='grid'>
-        <input type="hidden" name="Nom" type="text">
-        <input type="hidden" name="Email" type="text">
-        <textarea type="hidden" name="Message" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+        <input  name="Nom" type="text" placeholder="Name" >
+        <input  name="Email" type="text" placeholder="Email">
+        <textarea  name="Message" id="" cols="30" rows="10" placeholder="Your message"></textarea>
       </div>
       <button>Send</button>
       <style>
-
+        .form{
+          display: none;
+        }
       </style>
     </form>
   <body>
