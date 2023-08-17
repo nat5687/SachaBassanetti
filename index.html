@@ -20,8 +20,15 @@
     </script>
     <form name="contact" method="POST" data-netlify="true">
       <input type="hidden" name="form-name" value="contact" />
-      <input name="contact" />
-      <button name="submit" type="submit">Submit</button>
+      <div class='grid'>
+        <input type="hidden" name="Nom" type="text">
+        <input type="hidden" name="Email" type="text">
+        <textarea type="hidden" name="Message" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+      </div>
+      <button>Send</button>
+      <style>
+
+      </style>
     </form>
   <body>
     <div id="app"></div>

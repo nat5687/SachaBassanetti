@@ -39,7 +39,7 @@ textarea{
 
 }
 
-form{
+.grid, form{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,7 +64,7 @@ button{
 
 
 @media screen and (min-width: 700px) {
-    form{
+    .grid{
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: 90%;

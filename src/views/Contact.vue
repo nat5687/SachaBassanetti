@@ -6,9 +6,11 @@
       </h1>
       <form name="contact" method="POST" data-netlify="true">
         <input type="hidden" name="contact" value="contact" />
+        <div class='grid'>
         <input name="Nom" type="text" placeholder="Name">
         <input name="Email" type="text" placeholder="Email">
-        <textarea name="Message" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+          <textarea name="Message" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+        </div>
         <button>Send</button>
       </form>
 
@@ -24,4 +26,5 @@
 
 <style scoped lang="scss">
   @import '../style/contact.scss';
+
 </style>
