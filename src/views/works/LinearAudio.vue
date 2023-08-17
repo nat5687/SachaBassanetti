@@ -211,9 +211,11 @@ import {ref} from 'vue'
   ]
 
   let overlayIsVisible = ref(false)
+  let sectionToShow =  ref(null)
 
   const showOverlay = (index: number) => {
-    let sectionToShow = sections[index]
+
+    sectionToShow = sections[index]
     
     overlayIsVisible.value = true
     document.body.style.overflow = 'hidden'

@@ -83,7 +83,7 @@ import backArrow from '../../components/backArrow.vue'
 import appVideo from '../../components/appVideo.vue'
 import {Carousel} from '../../components/carousel/carousel.ts'
 import {returnThumbnailOfVideo} from '../../thumbnail.ts'
-import {onMounted, ref } from 'vue'
+import {onMounted, ref , Ref} from 'vue'
 
 const sections =[
     `<section class="cnr">
@@ -231,11 +231,12 @@ const sections =[
   ]
 
   let overlayIsVisible = ref(false)
+  let sectionToShow = ref(null)
 
 
   const showOverlay = (index: number) => {
 
-    let sectionToShow = sections[index]
+    sectionToShow = sections[index]
 
     overlayIsVisible.value = true
     document.body.style.overflow = 'hidden'
