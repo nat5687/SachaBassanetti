@@ -4,8 +4,8 @@
       <h1>
         Contact me
       </h1>
-      <form action="">
-        <input type="text" placeholder="fullname">
+      <form action="" netlify>
+        <input type="text" placeholder="Name">
         <input type="text" placeholder="Email">
         <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
       </form>

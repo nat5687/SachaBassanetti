@@ -88,3 +88,94 @@ iframe{
     margin: 0em auto 1em auto;
 }
 
+// ________________________Mosaique_______________________________
+
+.mosaique-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: calc(100vw * 0.19) calc(100vw * 0.19);
+
+    img{
+        width: 100%;
+        object-fit: cover;
+        transition: filter .5s ease,opacity .5s ease,-webkit-filter .5s ease;
+        transform-origin: center center; /* Centre de l'image */
+    }
+    
+    .img-container:nth-child(1){
+        
+        img{
+            transform: scale(1)
+        }
+    }
+    .img-container:nth-child(2){
+        
+        img{
+            transform: scale(1.1);
+            transform-origin: left center; 
+        }
+    }
+    
+    .img-container:nth-child(3){
+        
+        img{
+            transform: scale(1);
+        }
+    }
+    
+    .img-container:nth-child(4){
+
+        img{
+            transform: scale(3.5);
+        }
+    }
+
+    .img-container:nth-child(5){
+
+        img{
+            transform: scale(1);
+        }
+    }
+    
+    
+
+
+    .img-container{
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        grid-column: span 2
+
+        
+    }
+    .overlay{
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba($color: #000000, $alpha: 0.75);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: filter .5s ease,opacity .5s ease,-webkit-filter .5s ease;
+        cursor: pointer;
+
+        h2{
+            color: white;
+            position: relative;
+            font-size: 5vmin;
+            
+        }
+    
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
+
+.desktop{
+    width: 100%;
+}
+

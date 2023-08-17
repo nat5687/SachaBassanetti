@@ -32,7 +32,6 @@ import socialMedias from './socialMedias.vue';
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 3em;
         color: white;
         text-align: center;
 

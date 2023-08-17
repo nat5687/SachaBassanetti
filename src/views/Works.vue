@@ -1,6 +1,6 @@
 <template>
     <main>
-      <above-scroll :textProp="message"></above-scroll>
+      <above-scroll :textProp="message"> </above-scroll>
       <h1>This is all my work</h1>
       <section class="game_audio">
         <div class="text">

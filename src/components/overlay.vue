@@ -1,5 +1,59 @@
-@import '../variables';
+<template>
+    <div class='overlay_container'>
+        <div class='overlay_scroling'>
+            <svg @click.prevent='close' class='close' xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59L7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12L5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"/></svg>
+            <slot></slot>
+        </div>
+    </div>
+</template>
 
+
+
+<script setup lang='ts'>
+import appVideo from './appVideo'
+
+    const emit = defineEmits()
+    const {index} = defineProps(['index'])
+
+    const close = () => {
+        emit('close')
+    }
+
+</script>
+
+
+
+<style scoped lang='scss'>
+@import '../style/_variables.scss';
+
+    .overlay_container{
+        background-color : rgba(0, 0, 0, .9);
+        position: fixed;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        z-index: 10000;
+        color: white;
+        height: 100000px
+    }
+
+    .overlay_scroling{
+        max-height: 100vh;
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem;
+        overflow-y: auto;
+
+    }
+
+    .close{
+        cursor: pointer;
+        position: fixed;
+        right: 30px;
+    }
+
+
+    //  linearAudio
 
 section, main{
     width: 100%;
@@ -157,3 +211,6 @@ a{
     }
 }
 
+
+
+</style>
