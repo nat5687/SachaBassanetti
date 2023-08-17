@@ -64,7 +64,7 @@
           </div>
         </div>
 
-        <overlay v-if='overlayIsVisible' @close='closeOverlay' :index='videoIndex'><section class='no-border' v-if="sectionToShow" v-html="sectionToShow"></section></overlay>
+        <overlay v-if='overlayIsVisible' @close='closeOverlay' ><section class='no-border' v-if="sectionToShow" v-html="sectionToShow"></section></overlay>
 
 
         <back-arrow ></back-arrow>
@@ -181,7 +181,6 @@ import {ref} from 'vue'
     
   ]
 
-  let sectionToShow = ref(null)
 
 
   let isMobile = ref(window.innerWidth <= 700);
@@ -213,8 +212,8 @@ import {ref} from 'vue'
 
   let overlayIsVisible = ref(false)
 
-  const showOverlay = (index) => {
-    sectionToShow = sections[index]
+  const showOverlay = (index: number) => {
+    let sectionToShow = sections[index]
     
     overlayIsVisible.value = true
     document.body.style.overflow = 'hidden'
