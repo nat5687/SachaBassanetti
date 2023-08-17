@@ -231,12 +231,12 @@ const sections =[
   ]
 
   let overlayIsVisible = ref(false)
-  let sectionToShow = ref(null)
+  let sectionToShow = ref('')
 
 
   const showOverlay = (index: number) => {
 
-    sectionToShow = sections[index]
+    sectionToShow.value = sections[index]
 
     overlayIsVisible.value = true
     document.body.style.overflow = 'hidden'
