@@ -19,7 +19,7 @@
   import aboveScroll from '../components/aboveScroll.vue'
   import appVideo from '../components/appVideo.vue'
 
-  const message = 'Sound Designer  Composer  Sound Engineer'
+  const message = 'Sound Designer - Composer - Sound Engineer'
   const urls = [
     `https://www.youtube.com/embed/VykZSkETSLk`,
     `https://www.youtube.com/embed/CstgFFhPGqc`,
