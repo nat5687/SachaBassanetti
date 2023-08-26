@@ -233,8 +233,10 @@ const sections =[
   let overlayIsVisible = ref(false)
   let sectionToShow = ref('')
 
+  let scrollPosition = 0
 
   const showOverlay = (index: number) => {
+    scrollPosition = window.scrollY
 
     sectionToShow.value = sections[index]
 
@@ -265,7 +267,8 @@ const sections =[
 
     const closeOverlay = () => {
     overlayIsVisible.value = false
-    document.body.style.overflow = 'initial'
+    document.body.style.overflow = ''
+    window.scrollTo(0, scrollPosition)
     }
 
 </script>

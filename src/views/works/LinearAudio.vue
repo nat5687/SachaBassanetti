@@ -213,7 +213,11 @@ import {ref} from 'vue'
   let overlayIsVisible = ref(false)
   let sectionToShow = ref('')
 
+  let scrollPosition = 0
+
+
   const showOverlay = (index: number) => {
+    scrollPosition = window.scrollY
 
     sectionToShow.value = sections[index]
     
@@ -223,7 +227,9 @@ import {ref} from 'vue'
 
   const closeOverlay = () => {
     overlayIsVisible.value = false
-    document.body.style.overflow = 'initial'
+    document.body.style.overflow = ''
+    window.scrollTo(0, scrollPosition)
+
   }
 
 </script>
