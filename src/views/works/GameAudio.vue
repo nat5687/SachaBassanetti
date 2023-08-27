@@ -303,6 +303,8 @@ const sections =[
     .close{
         cursor: pointer;
         position: fixed;
-        right: 30px;
+        right: 10vmin;
+        height: 8vmin;
+        width: 8vmin;
     }
 </style>

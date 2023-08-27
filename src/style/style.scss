@@ -289,3 +289,7 @@ iframe{
 .no-border{
   border: none!important;
 }
+
+::placeholder{
+  font-family: $second-font;
+}
