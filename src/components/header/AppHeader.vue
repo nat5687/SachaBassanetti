@@ -63,7 +63,8 @@ header{
 
 
     img{
-        height: 70px;
+        height: 12vmin;
+        min-height: 70px;
         margin-left:20px;
         padding: 5px 0;
     }
