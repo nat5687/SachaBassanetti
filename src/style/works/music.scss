@@ -9,12 +9,13 @@ section, main{
 
 section{
     border-bottom: solid 2px $inverted-bgColor;
-    padding: 1em;
+    padding: 3em;
 }
 
 .text{
     text-align: center;
     margin: 2em auto 1em auto;
+    font-size: 4vmin;
 }
 
 .container{
