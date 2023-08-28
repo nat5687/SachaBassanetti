@@ -2,7 +2,7 @@
     <section class="aboveScrollContainer">
         <img  loading="lazy" src="../assets/bg-soundDesign.webp" alt="">
         <div class="overlay"></div>
-        <p>{{ textProp }}</p>
+        <p v-html="textProp"></p>
     </section>
 </template>
 

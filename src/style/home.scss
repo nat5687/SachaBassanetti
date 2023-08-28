@@ -15,10 +15,16 @@ main{
 
 .video{
     width: 100%;
-    margin: 4em auto 4em auto;
+    margin: 0em auto 4em auto;
+    border-bottom: solid 2px $inverted-bgColor;
+    padding-bottom: 4em;
+
+    &:nth-of-type(3){
+        border: none;
+    }
 }
 
 h2{
-    margin: 2em  0 2em 0;
+    margin: 2em  0 1em 0;
     font-size: 10vmin;
 }

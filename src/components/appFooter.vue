@@ -4,14 +4,6 @@ import socialMedias from './socialMedias.vue';
 
 <template>
     <footer>
-        <div>
-            <ul>
-                <router-link to="/" href="#"><li>Home</li></router-link>
-                <router-link to="/works" href="#"><li>Works</li></router-link>
-                <router-link to="/about" href="#"><li>About</li></router-link>
-                <router-link to="/contact" href="#"><li>Contact</li></router-link>
-            </ul>
-        </div>
         <social-medias></social-medias>
         <div class="contact_him">
             <div>Email: <span  class="callToAction" href="" target="_blank" rel="noopener noreferrer">bassanetti.sacha.pro@gmail.com</span></div>

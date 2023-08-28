@@ -10,6 +10,10 @@ section{
     text-align: start;
     width: 100%;
     margin: 1em auto 1em auto;
+
+    &:nth-child(6){
+        margin-bottom: 5em;
+    }
 }
 
 h1{

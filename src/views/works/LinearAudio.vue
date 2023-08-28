@@ -196,7 +196,9 @@ import {ref} from 'vue'
   let thumbnailUrls = urls.map((url) => {
     return returnThumbnailOfVideo(url)
   })
-
+  thumbnailUrls[1] = 'https://static.wixstatic.com/media/2f8a00_fee4db509d5d416ea80a1f63411c2834~mv2.png/v1/fill/w_282,h_415,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Addn%20affiche%20PRIX%20v2%20CORRIGE.png'
+  thumbnailUrls[2] = 'https://static.wixstatic.com/media/2f8a00_f634cc7dc2e74ca784f2cbcaf82054ab~mv2.jpg/v1/fill/w_336,h_498,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Une%20Nuit%20En%20Rouge.jpg'
+  thumbnailUrls[3] = 'https://static.wixstatic.com/media/2f8a00_a78052d49dbc412c8cca54ffe5486907~mv2.jpg/v1/fill/w_336,h_498,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Affiche%20Stayin%20Alive.jpg'
   thumbnailUrls.push('https://static.wixstatic.com/media/2f8a00_295f2de2caff422f8849c643df2902d0~mv2.jpg/v1/fill/w_336,h_498,al_c,lg_1,q_80,enc_auto/Poster_not_available.jpg')
 
 
